@@ -110,7 +110,7 @@ if __name__ == '__main__':
         wait_time = random.randint(1, 3600) # Random Sleep to Avoid Ban
         print(f'为了避免同一时间签到人数太多导致被官方怀疑，开始休眠 {wait_time} 秒')
         #time.sleep(wait_time)
-        '''
+     
         wallet = r.get(WalletURL, headers=headers, timeout=60)
         if json.loads(wallet.text) == {"data": None,"message":"登录已失效，请重新登录","retcode":-100}: 
             print(f'当前登录已过期，请重新登陆！返回为：{wallet.text}')
@@ -170,14 +170,14 @@ if __name__ == '__main__':
             else:
                 raise RunError(
                     f"签到失败！请带着本次运行的所有log内容到 https://github.com/ElainaMoe/MHYY-AutoCheckin/issues 发起issue解决（或者自行解决）。签到出错，返回信息如下：{res.text}")
-        '''
+       
         print('开始进行nova签到')
         response = r.post(NovaUrl,cookies=cookie,timeout=60,verify=False)
         response_str = str(response.text)
         sct_msg += f'nova签到情况'
         sct_msg += response_str
         print(sct_msg)
-'''
+
         if sct_status:
             res = r.post(sct_url, json={'title': '', 'short': 'MHYY-AutoCheckin 签到情况报告', 'desp': sct_msg}, timeout=30)
             if res.status_code == 200:
@@ -185,4 +185,4 @@ if __name__ == '__main__':
             else:
                 print('sct无法推送')
                 print(res.text)
-'''
+
