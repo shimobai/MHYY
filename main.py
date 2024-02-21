@@ -173,8 +173,9 @@ if __name__ == '__main__':
         '''
         print('开始进行nova签到')
         response = r.post(NovaUrl,cookies=cookie,timeout=60,verify=False)
+        response_str = response.text
         sct_msg += f'nova签到情况'
-        sct_msg += response.text
+        sct_msg += response_str
         print(sct_msg)
 '''
         if sct_status:
