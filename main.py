@@ -42,7 +42,7 @@ print(f'检测到 {len(conf)} 个账号，正在进行任务……')
 
 # Options
 sct_status = True  # https://sct.ftqq.com/
-sct_key = 'SCT197175Tiwj4EhaG3KJjFsPExXHb7KPX'
+sct_key = 'SCT197175TVcXinkYCIWTsKBDcKghhabzo'
 sct_url = f'https://sctapi.ftqq.com/{sct_key}.send?title=MHYY-AutoCheckin 自动推送'
 
 sct_msg = ''
@@ -65,14 +65,14 @@ AnnouncementURL = 'https://api-cloudgame.mihoyo.com/hk4e_cg_cn/gamer/api/getAnno
 NovaUrl='https://xn--rqq4a90a07rjobl00g.xn--w4r699l.xn--mmp-p18dn3y51wo4hc35ejee.com/user/checkin'
 cookie={  
     '_ga': 'GA1.2.1682390974.1634449227',  
-    '_gid': 'GA1.2.952684167.1708425774',  
+    '_gid': 'GA1.2.1233701904.1708738919',  
+    '_gat': '1',  
     'uid': '31967',  
     'email': '2658495017%40qq.com',  
-    'key': 'a5e4a80bd4ae5666f00712d614c77f20e7b0bbbeb8ef6',  
-    'ip': '6e3506cc965b4364afe079a1a41eb3d7',  
-    'expire_in': '1708512175',  
-    '_gat': '1',  
-    '_ga_YZ8GYC4WTE': 'GS1.2.1708493419.3.0.1708493419.0.0.0'  
+    'key': 'c3a2027bd780d98f586d0cd51cb895522672af274ffb4',  
+    'ip': '12f2a05a0973c1c0a081081ffbb6f094',  
+    'expire_in': '1711330921',  
+    '_ga_YZ8GYC4WTE': 'GS1.2.1708738919.4.1.1708738924.0.0.0'  
 }
 if __name__ == '__main__':
     for config in conf:
