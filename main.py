@@ -65,14 +65,14 @@ AnnouncementURL = 'https://api-cloudgame.mihoyo.com/hk4e_cg_cn/gamer/api/getAnno
 NovaUrl='https://xn--rqq4a90a07rjobl00g.xn--w4r699l.xn--mmp-p18dn3y51wo4hc35ejee.com/user/checkin'
 cookie={  
     '_ga': 'GA1.2.1682390974.1634449227',  
-    '_gid': 'GA1.2.1233701904.1708738919',  
+    '_gid': 'GA1.2.1418295235.1712463568',  
     '_gat': '1',  
     'uid': '31967',  
     'email': '2658495017%40qq.com',  
-    'key': 'c3a2027bd780d98f586d0cd51cb895522672af274ffb4',  
-    'ip': '12f2a05a0973c1c0a081081ffbb6f094',  
-    'expire_in': '1711330921',  
-    '_ga_YZ8GYC4WTE': 'GS1.2.1708738919.4.1.1708738924.0.0.0'  
+    'key': 'b4aa9675146e51f1d2de2b834a5565367c24bdaa18e39',  
+    'ip': '12778cbc63a7487ba90eb72ce453314d',  
+    'expire_in': '1715055571',  
+    '_ga_YZ8GYC4WTE': 'GS1.2.1712463568.5.1.1712463574.0.0.0'  
 }
 if __name__ == '__main__':
     for config in conf:
