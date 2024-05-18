@@ -62,17 +62,17 @@ except:
 NotificationURL = 'https://api-cloudgame.mihoyo.com/hk4e_cg_cn/gamer/api/listNotifications?status=NotificationStatusUnread&type=NotificationTypePopup&is_sort=true'
 WalletURL = 'https://api-cloudgame.mihoyo.com/hk4e_cg_cn/wallet/wallet/get'
 AnnouncementURL = 'https://api-cloudgame.mihoyo.com/hk4e_cg_cn/gamer/api/getAnnouncementInfo'
-NovaUrl='https://xn--rqq4a90a07rjobl00g.xn--w4r699l.xn--mmp-p18dn3y51wo4hc35ejee.com/user/checkin'
+NovaUrl='https://nova.live/user/checkin'
 cookie={  
-    '_ga': 'GA1.2.1682390974.1634449227',  
-    '_gid': 'GA1.2.1418295235.1712463568',  
+    '_ga': 'GA1.2.1762496858.1632027040',  
+    '_gid': 'GA1.2.1796609746.1716033102',  
     '_gat': '1',  
     'uid': '31967',  
     'email': '2658495017%40qq.com',  
-    'key': 'b4aa9675146e51f1d2de2b834a5565367c24bdaa18e39',  
-    'ip': '12778cbc63a7487ba90eb72ce453314d',  
-    'expire_in': '1715055571',  
-    '_ga_YZ8GYC4WTE': 'GS1.2.1712463568.5.1.1712463574.0.0.0'  
+    'key': '20b4ea977a73e1329bd9d46753838d12da5c45bd3dfb4',  
+    'ip': '52f66141fdd3e8aa351171fcb2026d78',  
+    'expire_in': '1718625199',  
+    '_ga_YZ8GYC4WTE': 'GS1.2.1716033102.32.1.1716033203.0.0.0'  
 }
 if __name__ == '__main__':
     for config in conf:
