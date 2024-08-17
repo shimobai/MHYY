@@ -64,15 +64,15 @@ WalletURL = 'https://api-cloudgame.mihoyo.com/hk4e_cg_cn/wallet/wallet/get'
 AnnouncementURL = 'https://api-cloudgame.mihoyo.com/hk4e_cg_cn/gamer/api/getAnnouncementInfo'
 NovaUrl='https://nova.live/user/checkin'
 cookie={  
-    '_ga': 'GA1.2.1762496858.1632027040',  
-    '_gid': 'GA1.2.380951999.1718788899',  
-    '_gat': '1',  
+    '_ga': 'GA1.2.1842694701.1723876676',  
+    '_gid': 'GA1.2.920766050.1723876676',  
     'uid': '31967',  
-    'email': '2658495017@qq.com',  
-    'key': '5d7ab1e8eaec8a2085d9a7741857136a35849eb21570c',  
-    'ip': '14e8cedf6e43a052a2193ccc2ff30963',  
-    'expire_in': '1721380904',  
-    '_ga_YZ8GYC4WTE': 'GS1.2.1718788899.33.1.1718788905.0.0.0' 
+    'email': '2658495017%40qq.com',  
+    'key': 'c7050fdd0469738e0d79636f9aa47ee28f79ba21b8396',  
+    'ip': 'e1795616555f16b356106c1645f7f9b5',  
+    'expire_in': '1726468982',  
+    '_gat': '1',  
+    '_ga_YZ8GYC4WTE': 'GS1.2.1723885926.2.0.1723885926.0.0.0'
 }
 if __name__ == '__main__':
     for config in conf:
