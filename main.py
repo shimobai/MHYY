@@ -51,7 +51,7 @@ sct_msg = ''
 class RunError(Exception):
     pass
 
-
+"""
 try:
     ver_info = r.get('https://sdk-static.mihoyo.com/hk4e_cn/mdk/launcher/api/resource?key=eYd89JmJ&launcher_id=18', timeout=60).text
     version = json.loads(ver_info)['data']['game']['latest']['version']
@@ -168,7 +168,7 @@ if __name__ == '__main__':
             else:
                 raise RunError(
                     f"签到失败！请带着本次运行的所有log内容到 https://github.com/ElainaMoe/MHYY-AutoCheckin/issues 发起issue解决（或者自行解决）。签到出错，返回信息如下：{res.text}")
-       
+       """
         print('开始进行nova签到')
         response = r.post(NovaUrl,cookies=cookie,timeout=60,verify=False)
         response_str = str(response.text)
