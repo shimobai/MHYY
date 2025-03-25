@@ -63,7 +63,7 @@ NotificationURL = 'https://api-cloudgame.mihoyo.com/hk4e_cg_cn/gamer/api/listNot
 WalletURL = 'https://api-cloudgame.mihoyo.com/hk4e_cg_cn/wallet/wallet/get'
 AnnouncementURL = 'https://api-cloudgame.mihoyo.com/hk4e_cg_cn/gamer/api/getAnnouncementInfo'
 NovaUrl='https://nova.live/user/checkin'
-cookie={  
+cookie={
     '_ga': 'GA1.2.1842694701.1723876676',
     '_ga_YZ8GYC4WTE': 'GS1.2.1740392554.12.0.1740392554.0.0.0',
     'uid': '52202',
