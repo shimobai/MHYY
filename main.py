@@ -173,15 +173,15 @@ if True:
     if True:
         print('开始进行nova签到')
         NovaUrl='https://nova.live/user/checkin'
-        cookie={  
+        cookie={
             '_ga': 'GA1.2.1842694701.1723876676',
-            '_ga_YZ8GYC4WTE': 'GS1.2.1739159803.10.1.1739159871.0.0.0',
+            '_ga_YZ8GYC4WTE': 'GS1.2.1744438015.13.0.1744438015.0.0.0',
             'uid': '52202',
             'email': '2658495017%40qq.com',
-            'key': '41dda4069c6b75e5e7cef83bcc8b16d6933c098f3ae33',
-            'ip': '10eaacc01c61e99320db13d1182882af',
-            'expire_in': '1741751866'  
-            }
+            'key': '4537e0abae229f567f77491d1abc75f44456e77f626f9',
+            'ip': '0303f1b32c7591a761a1aa7a8cb13316',
+            'expire_in': '1745479118'
+        }
         response = r.post(NovaUrl,cookies=cookie,timeout=60,verify=False)
         response_str = str(response.text)
         sct_msg += f'nova签到情况'
