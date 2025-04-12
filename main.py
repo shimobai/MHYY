@@ -65,7 +65,7 @@ AnnouncementURL = 'https://api-cloudgame.mihoyo.com/hk4e_cg_cn/gamer/api/getAnno
 NovaUrl='https://nova.live/user/checkin'
 cookie={
     '_ga': 'GA1.2.1842694701.1723876676',
-    '_ga_YZ8GYC4WTE': 'GS1.2.1740392554.12.0.1740392554.0.0.0',
+    '_ga_YZ8GYC4WTE': 'GS1.2.1744438015.13.0.1744438015.0.0.0',
     'uid': '52202',
     'email': '2658495017%40qq.com',
     'key': '4537e0abae229f567f77491d1abc75f44456e77f626f9',
