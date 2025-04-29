@@ -178,9 +178,23 @@ if True:
             '_ga_YZ8GYC4WTE': 'GS1.2.1744438015.13.0.1744438015.0.0.0',
             'uid': '52202',
             'email': '2658495017%40qq.com',
-            'key': '4537e0abae229f567f77491d1abc75f44456e77f626f9',
-            'ip': '0303f1b32c7591a761a1aa7a8cb13316',
-            'expire_in': '1745479118'
+            'key': 'b9c7c07439dac9e73f3718d76c21e702fcc161f6fe5af',
+            'ip': 'bb0b3999e867fe16654e965335435060',
+            'expire_in': '1748501286'
+        }
+        response = r.post(NovaUrl,cookies=cookie,timeout=60,verify=False)
+        response_str = str(response.text)
+        sct_msg += f'nova签到情况'
+        sct_msg += response_str
+        print(sct_msg)
+        cookie={
+            '_ga': 'GA1.2.1698044980.1745908947',
+            '_ga_YZ8GYC4WTE': 'GS1.2.1745908949.1.1.1745909030.0.0.0',
+            'uid': '56197',
+            'email': '3423464575%40qq.com',
+            'key': 'df0e0eff7da462bf76efae26c1af333a515046258535c',
+            'ip': '2ea0f5e61db7841f810c36e1a637a135',
+            'expire_in': '1748500962'
         }
         response = r.post(NovaUrl,cookies=cookie,timeout=60,verify=False)
         response_str = str(response.text)
