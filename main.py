@@ -175,12 +175,12 @@ if True:
         NovaUrl='https://nova.live/user/checkin'
         cookie={
             '_ga': 'GA1.2.1405369514.1769439458',
-            '_ga_YZ8GYC4WTE': 'GS2.2.s1769656898$o2$g0$t1769656898$j60$l0$h0',
+            '_ga_YZ8GYC4WTE': 'GS2.2.s1774420780$o4$g1$t1774420788$j52$l0$h0',
             'uid': '72256',
             'email': '2658495017%40qq.com',
-            'key': 'dd0f96de448b34fe08e5c1cd1379a13740119a054b7da',
+            'key': '9310caf52132468abb232bea22a7b94ca8fb5ac16ba51',
             'ip': '1cbf71711ec1b2567d5981c634391606',
-            'expire_in': '1772031513'
+            'expire_in': '1774792416'
         }
         response = r.post(NovaUrl,cookies=cookie,timeout=60,verify=False)
         response_str = str(response.text)
