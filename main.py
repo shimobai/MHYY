@@ -65,8 +65,9 @@ AnnouncementURL = 'https://api-cloudgame.mihoyo.com/hk4e_cg_cn/gamer/api/getAnno
 NovaUrl='https://nova.live/user/checkin'
 cookie={
     '_ga': 'GA1.2.1405369514.1769439458',
-    '_ga_YZ8GYC4WTE': 'GS2.2.s1777547106$o7$g1$t1777547112$j54$l0$h0',
-    '_gid':'GA1.2.348201017.1777547106',
+    '_ga_YZ8GYC4WTE': 'GS2.2.s1778668917$o8$g0$t1778668917$j60$l0$h0',
+    '_gid':'GA1.2.826328227.1778668917',
+    '_gat':'1',
     'uid': '72256',
     'email': '2658495017%40qq.com',
     'key': 'fbafe5da3ce161ce88f95f38d7dc62d12c496d4fe9251',
@@ -176,12 +177,14 @@ if True:
         NovaUrl='https://nova.live/user/checkin'
         cookie={
             '_ga': 'GA1.2.1405369514.1769439458',
-            '_ga_YZ8GYC4WTE': 'GS2.2.s1774420780$o4$g1$t1774420788$j52$l0$h0',
+            '_ga_YZ8GYC4WTE': 'GS2.2.s1778668917$o8$g0$t1778668917$j60$l0$h0',
+            '_gid':'GA1.2.826328227.1778668917',
+            '_gat':'1',
             'uid': '72256',
             'email': '2658495017%40qq.com',
-            'key': '9310caf52132468abb232bea22a7b94ca8fb5ac16ba51',
-            'ip': '1cbf71711ec1b2567d5981c634391606',
-            'expire_in': '1774792416'
+            'key': 'fbafe5da3ce161ce88f95f38d7dc62d12c496d4fe9251',
+            'ip': 'cf5ea1d26671abb9b2b1674eb56af10f',
+            'expire_in': '1780139112'
         }
         response = r.post(NovaUrl,cookies=cookie,timeout=60,verify=False)
         response_str = str(response.text)
